@@ -6,8 +6,8 @@
 
 		</aside>
 	</div>
-<!-- 	<h2>Expresión de libertad</h2>
- -->	<figure>
+	<h2>under the sky</h2>
+	<figure>
 		<img src="http://localhost/urbano/wp-content/uploads/sites/6/2016/03/urban.jpg" alt="">
 	</figure>
 </div>
@@ -17,28 +17,38 @@
 
 	function showRegister() {
 		// $('html').scrollTop(0)
-		$("#forgot_password").fadeOut(1)
-		$( "#login" ).fadeOut(1)
-		$("#register").fadeIn(1)
-
+		$("#forgot_password").fadeOut(0)
+		$( "#login" ).fadeOut(0)
+		$("#register").fadeIn(0)
+		$( ".tabs_login li:nth-child(2)").css({"background-color":"#d34836"})
+		$( ".tabs_login li:nth-child(3)").css({"background-color":"transparent"})
+		$( ".tabs_login li:nth-child(1)").css({"background-color":"transparent"})
 		event.preventDefault();
 	// $("#linkId").attr("href", "http://the.new.url");
  }
 
  	function showForgot() {
 		// $('html').scrollTop(0)
-		$( "#login" ).fadeOut(1)
-		$("#register").fadeOut(1)
-		$("#forgot_password").fadeIn(1)
+		$( "#login" ).fadeOut(0)
+		$("#register").fadeOut(0)
+		$("#forgot_password").fadeIn(0)
+		$( ".tabs_login li:nth-child(3)").css({"background-color":"#d34836"})
+		$( ".tabs_login li:nth-child(2)").css({"background-color":"transparent"})
+		$( ".tabs_login li:nth-child(1)").css({"background-color":"transparent"})
 		event.preventDefault();
 	// $("#linkId").attr("href", "http://the.new.url");
  }
 
  	function showLogin() {
 		// $('html').scrollTop(0)
-		$( "#login" ).fadeIn(1)
-		$("#register").fadeOut(1)
-		$("#forgot_password").fadeOut(1)
+		$( "#login" ).fadeIn(0)
+		$("#register").fadeOut(0)
+		$("#forgot_password").fadeOut(0)
+		$( ".active_login").css({"background-color":"#d34836"})
+		$( ".tabs_login li:nth-child(2)").css({"background-color":"transparent"})
+		$( ".tabs_login li:nth-child(3)").css({"background-color":"transparent"})
+
+
 		event.preventDefault();
 	// $("#linkId").attr("href", "http://the.new.url");
  }
