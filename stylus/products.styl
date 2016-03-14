@@ -1,0 +1,70 @@
+.Products
+	background-color white
+	&-desserts				
+		h1 
+			margin-left 1rem
+			margin-top 1rem
+			margin-bottom 1rem
+			font-weight: 300
+			font-size 3rem
+			width 36vw
+			border-bottom 1px solid black	
+	&-article
+		display flex
+		justify-content space-between
+		flex-wrap: wrap
+		article			
+			margin 1rem
+			padding .5rem
+			width 90vw
+			border-bottom 1px solid #999
+			background-color #fff
+			height: 100%
+			h2
+				color white
+				background-color gatelin
+				padding-left .5rem
+	&-sidebar
+		display none
+		background-color #fff
+		width 15vw
+		padding 1rem
+		position fixed
+		right 0
+		top 5rem
+
+	&-cream
+		
+		.post-meta
+			font-size: 1.8rem
+			font-weight: 400 !important
+			&-key
+				color maroon
+				font-weight: 400
+				
+
+@media (min-width: 700px)
+	.Products
+		&-article
+			article					
+				width 43vw
+				img 
+					width 50%
+
+				
+@media (min-width: 900px)
+	.Products
+		&-sidebar
+			display block
+		&-article
+			justify-content flex-start
+			article					
+				width 35vw
+				
+					
+
+
+
+	
+
+				
