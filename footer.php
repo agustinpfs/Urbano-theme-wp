@@ -1,7 +1,7 @@
 <div class="Footer">
   <div class="Footer-left">
     <div class="Footer-title">
-      <img src="http://localhost/wp-content/uploads/2016/02/logo.png" alt=""/></span><h1><?php bloginfo('title' ); ?></h1>
+      <img src="http://localhost/urbano/wp-content/uploads/sites/6/2016/03/logo-e1457792591221.png" alt=""/></span><h1><?php bloginfo('title' ); ?></h1>
     </div>
     <div class="Footer-copy"><small>© 2016 GatelinSRL</small><small>Diseño por <a href="http://pandawebs.net/" target="blank">Pandawebs</a></small></div>
   </div>

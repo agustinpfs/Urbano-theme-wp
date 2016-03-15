@@ -9,10 +9,10 @@
 		<link href='https://fonts.googleapis.com/css?family=Lato:400,300,700' rel='stylesheet' type='text/css'>
 		<link href='https://fonts.googleapis.com/css?family=Courgette' rel='stylesheet' type='text/css'>
 		<script src='https://www.google.com/recaptcha/api.js?hl=es'></script>
-		
+		<?php wp_head(); ?>
 	</head>
 <body>
-	<div class="pedido">
+	<!-- <div class="pedido">
 		<h2>Hacé tu pedido ya!</h2>
 		<span>473-6183</span>
-	</div>
+	</div> -->

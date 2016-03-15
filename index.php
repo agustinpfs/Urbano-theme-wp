@@ -42,11 +42,11 @@ Template Name: Página index
 	<?php endif; ?>
 </div>
 <?php get_footer(); ?>
-<div class="pedido">
+<!-- <div class="pedido">
 	 [restrict] <h2>Hacé tu pedido ya!</h2>
-	<span>473-6183</span>[/restrict]
-</div>
-
+	<span>473-6183</span>[/restrict] -->
+<!-- </div>
+ -->
 <script>
 
 	$( ".Index-article" ).hover(
