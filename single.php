@@ -7,7 +7,7 @@
 <body class="Single">
 	<main class="Single-main">
 		<section class="Single-section">
-			<h1><?php wp_title(''); ?></h1>
+			<h1 class="Single-h1"><?php wp_title(''); ?></h1>
 			<section class="Single-article">
 				<?php rewind_posts() ?>
 				<?php if ( have_posts() ) : while ( have_posts() ) : the_post() ?>

@@ -1,11 +1,7 @@
-<div class="Header">
-	<div class="Header-mobile">
-		<span class="icon-phone"> 473-6183</span>
-	</div>
+<div class="Header">	
 	<div class="Header-top">
 		<a href="/">
 		 	<div class="Header-logo">
-
 		        <figure><img src="http://localhost/urbano/wp-content/uploads/sites/6/2016/03/logo-e1457792591221.png" alt=""/></figure>
 				<h1><?php bloginfo('title' ); ?></h1>
 				<!-- <span><?php bloginfo('description'); ?></span> -->

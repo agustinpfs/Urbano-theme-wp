@@ -1,29 +1,28 @@
 .Single
 	background-color white
-	.content 
-		width 30vw
-	figure 
-		margin-right 1rem
-		min-width 40vw 
-	&-section				
+	&-section						
 		h1 
-			margin-left 1.5rem
-			margin-top 1rem
-			margin-bottom 1rem
+			margin 1rem			
 			font-weight: 300
-			font-size 3rem
-			width 36vw
+			font-size 2rem
+			width 65vw
 			border-bottom 1px solid black	
 	&-article		
 		article			
-			margin 1rem
+			margin 0 auto
 			padding .5rem
-			width 70vw
+			width 95vw
 			border-bottom 1px solid #999
 			display: flex
+			flex-direction: column
 			// flex-wrap: wrap
 			// background-color #fff
 			height: 100%
+			figure 
+				text-align: center
+				margin-bottom 1rem
+			p 
+				margin 0
 			h2
 				color white
 				background-color gatelin
@@ -48,25 +47,58 @@
 				
 
 @media (min-width: 700px)
-	// .Single
+	.Single
+		&-section						
+			h1 
+				margin 0 auto
+				margin-top 1rem
+				margin-bottom 1rem
+				font-size: 3rem
 		// figure 
 		// 	margin-right 1rem
 		// img
 		// 	width 100% !important
-	// 	&-article
-	// 		article					
-	// 			width 43vw
-	// 			img 
-	// 				width 50%
-
+		&-article
+			article				
+				width 65vw
+		// 		figure
+		// 			flex-basis 49%
+		// &-content
+		// 	flex-basis 49%
+		// 	margin-left .5rem
 				
 @media (min-width: 900px)
 	.Single
+		&-section						
+			h1 
+				margin-left 1.5rem
 		&-sidebar
 			display block
-		// &-article
-		// 	justify-content flex-start
-		
+		&-article
+			article
+				margin-left 1rem				
+				figure 
+					text-align: left
+					
+@media (min-width: 1080px)
+	.Single
+		&-section						
+			h1 
+				margin-left 5rem
+				width 55vw
+
+		// 	margin-right 1rem
+		// img
+		// 	width 100% !important
+		&-article
+			article	
+				margin-left 5rem	
+				width 55vw
+				// figure 
+				// 	text-align: center
+	
+
+						
 				
 					
 
