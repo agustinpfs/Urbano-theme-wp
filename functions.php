@@ -11,6 +11,7 @@ function register_my_menus() {
             array(
                 'menu-header' => __('Menú del encabezado'),
                 'menu-footer' => __('Menú del footer'),
+                'menu-footer2' => __('Menú del footer2'),
                 'menu-sidebar' => __('Menú del sidebar')
                 )
         );

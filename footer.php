@@ -18,6 +18,18 @@
   	        );
   	 ?>
 	  </aside>
+    <aside class="Footer-menu">
+      <?php
+        wp_nav_menu(
+            array(
+                'theme_location' => 'menu-footer2',
+                'container'       => 'nav',
+                'container_class' => 'Footer-nav',
+                'menu_class'      => 'Footer-list'
+                )
+            );
+      ?>
+    </aside>
   </div>
   <div class="Footer-right">
     <div class="Footer-social">
@@ -26,6 +38,9 @@
         <li><a href="#" class="icon-google-plus2"></a></li>
         <li><a href="#" class="icon-facebook2"></a></li>
         <li><a href="#" class="icon-twitter"></a></li>
+        <li><a href="#" class="icon-instagram"></a></li>
+        <li><a href="#" class="icon-soundcloud"></a></li>
+        <li><a href="#" class="icon-youtube"></a></li>
       </ul>
     </div>
     <!-- <div class="Footer-leyend"><em>

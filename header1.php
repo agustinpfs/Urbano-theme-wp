@@ -1,6 +1,6 @@
 <div class="Header">	
 	<div class="Header-top">
-		<a href="/">
+		<a href="http://localhost/urbano/home/">
 		 	<div class="Header-logo">
 		        <figure><img src="http://localhost/urbano/wp-content/uploads/sites/6/2016/03/logo-e1457792591221.png" alt=""/></figure>
 				<h1><?php bloginfo('title' ); ?></h1>

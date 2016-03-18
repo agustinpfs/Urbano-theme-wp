@@ -12,10 +12,9 @@
 				<article>
 					<h2><?php the_title() ?></h2>
 					<figure>
-						<?php the_post_thumbnail('thumbnail'); ?>
+						<?php the_post_thumbnail(Large); ?>
 					</figure>
 					<?php the_content(); ?>
-					<span><?php the_excerpt(); ?></span>
 				</article>
 				<!-- post -->
 				<?php endwhile ?>
