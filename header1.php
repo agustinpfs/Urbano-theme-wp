@@ -2,7 +2,9 @@
 	<div class="Header-top">
 		<a href="http://wp-themes.pandawebs.net/urbano/index-2/">
 		 	<div class="Header-logo">
-		        <figure><img src="http://localhost/urbano/wp-content/uploads/sites/6/2016/03/logo-e1457792591221.png" alt=""/></figure>
+		        <figure><!-- <img src="http://localhost/urbano/wp-content/uploads/sites/6/2016/03/logo-e1457792591221.png" alt=""/> -->
+					<img src="http://wp-themes.pandawebs.net/urbano/wp-content/uploads/sites/5/2016/03/logo-1.png" alt=""/>
+		        </figure>
 				<h1><?php bloginfo('title' ); ?></h1>
 				<!-- <span><?php bloginfo('description'); ?></span> -->
 		  	</div>
